@@ -1,0 +1,128 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  margin: 0;
+  background: linear-gradient(
+    135deg,
+    #0f3d2e 0%,
+    #1f6f4a 35%,
+    #3fa34d 70%,
+    #9be564 100%
+  );
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+.myCard {
+  border: 2px solid rgb(221, 127, 65);
+  margin-left: 30px;
+  width: 80px;
+  height: 100px;
+  border-radius: 50px;
+}
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: min(1100px, 90%);
+  height: 100px;
+  border-radius: 30px;
+  padding: 10px;
+  margin: 20px auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
+}
+.myName {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.678);
+  color: #f5fdf7;
+  margin-left: 20px;
+  font-family: "Inter", sans-serif;
+}
+.navBarElements {
+  font-size: 20px;
+  margin-left: 20px;
+  font-family: "Inter", sans-serif;
+  color: #f5fdf7;
+}
+.mainContent {
+  width: min(1100px, 90%);
+  margin: auto;
+  display: flex;
+  gap: 40px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.hero,
+.skills {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
+  font-family: "Inter", sans-serif;
+  color: #f5fdf7;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.671);
+}
+.heroButtons {
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  border: 0;
+  background-color: #9be564;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  transition: 0.2s;
+}
+.heroButtons:hover {
+  background-color: #3fa34d;
+  color: #f5fdf7;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.heroButtons:active {
+  transform: scale(0.9);
+}
+.otherSkills {
+  width: min(700px, 90%);
+  margin: 40px auto;
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
+  font-family: "Inter", sans-serif;
+  color: #f5fdf7;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.671);
+}
+.footer {
+  font-family: "Inter", sans-serif;
+  color: #f5fdf7;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.671);
+  text-align: center;
+}
+.hero2 {
+  width: 80%;
+  text-align: center;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
+  font-family: "Inter", sans-serif;
+  color: #f5fdf7;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.671);
+}
+.mainContentContact {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
