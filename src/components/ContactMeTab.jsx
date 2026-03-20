@@ -44,10 +44,10 @@ const ContactMeTab = () => {
             LinkedIn:
             <a
               style={{ color: "#f5fdf7", marginLeft: "10px" }}
+              href="https://www.linkedin.com/in/andrea-taccone-831614319/"
               target="_blank"
-              href=""
             >
-              placeholder
+              Andrea Taccone
             </a>
           </h3>
         </section>

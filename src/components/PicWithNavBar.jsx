@@ -20,7 +20,8 @@ const PicWithNavBar = () => {
         <section className="hero">
           <p>
             I am Andrea, a Junior Fullstack Web Developer, i mainly build
-            responsive web apps with React and JS/TS
+            responsive web apps with React and JS/TS.<br/><br/>
+            I currently work at 3D Print srl in San Marino.
           </p>
           <Link to="/projects">
             <button className="heroButtons">Projects</button>
