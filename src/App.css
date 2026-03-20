@@ -126,3 +126,9 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
 }
+.carouselImages:hover {
+  cursor: grab;
+}
+.carouselImages:active {
+  cursor: grabbing;
+}
