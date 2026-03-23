@@ -13,6 +13,7 @@ const ContactMeTab = () => {
           className="myCard"
         />
         <h1 className="myName">Andrea Taccone</h1>
+        <h2 className="myName">Junior Full-Stack Web Developer</h2>
         <Link to="/" className="navBarElements">
           Back
         </Link>

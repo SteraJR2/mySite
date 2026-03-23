@@ -25,6 +25,7 @@ const ProjectsTab = () => {
           className="myCardDark"
         />
         <h1 className="myNameDark">Andrea Taccone</h1>
+        <h2 className="myNameDark">Junior Full-Stack Web Developer</h2>
         <Link to="/" className="navBarElements">
           Back
         </Link>
@@ -188,6 +189,9 @@ const ProjectsTab = () => {
           </div>
         </div>
       </div>
+      <footer className="footer">
+        <p>&copy; 2026 Andrea Taccone. All rights reserved.</p>
+      </footer>
     </>
   );
 };
