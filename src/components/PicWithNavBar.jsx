@@ -20,7 +20,7 @@ const PicWithNavBar = () => {
       <div className="mainContent">
         <section className="hero">
           <p>
-            I am Andrea, a Junior Fullstack Web Developer.
+            I am Andrea, a 22 year old Junior Fullstack Web Developer.
             <br /> I build responsive web applications using React, JavaScript,
             and TypeScript.
             <br />

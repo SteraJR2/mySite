@@ -44,7 +44,7 @@ const ProjectsTab = () => {
           </h2>
           <p style={{ marginLeft: 20 }}>
             A simple page I made that fetches data from a JSON backend built in
-            JS which can operate with CRUD operations and displays it when
+            JS which operates with CRUD operations and displays it when
             clicking a button, the user also has the option to click on the game
             to display the properties in another page. (Loading will be slow due
             to it being hosted on a free server.)
