@@ -25,7 +25,7 @@ const PicWithNavBar = () => {
             and TypeScript.
             <br />
             <br />
-            Currently working at 3D Print SRL (San Marino).
+            Experience working at 3D Print SRL (San Marino).
           </p>
           <Link to="/projects">
             <button className="heroButtons">View Projects</button>
